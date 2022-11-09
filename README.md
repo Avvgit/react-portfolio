@@ -7,6 +7,9 @@
 
 De igual forma se instala @mui/material, @testing-library/jest-dom, react-icons, react-router-dom.
 
+### Consideraciones:
+La app tiene todo el funcionamiento operativo (Botones, formulario, enlaces, contacto y descarga de CV), no obstante por temas de actualización el archivo PDF de la descarga del CV es un archivo PDF de relleno.  
+
 
 # Getting Started with Create React App
 
