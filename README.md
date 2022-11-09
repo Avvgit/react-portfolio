@@ -1,3 +1,16 @@
+# Capturas Portfolio Alejandro Vera Valdés
+
+![Image text](https://github.com/Avvgit/react-portfolio/blob/main/Captura%20de%20Pantalla%202022-11-09%20a%20la(s)%2003.17.50.png)
+![Image text](https://github.com/Avvgit/react-portfolio/blob/main/Captura%20de%20Pantalla%202022-11-09%20a%20la(s)%2003.18.27.png)
+
+## En el portfolio se implementa uso de Hooks en componentes como Contact.jsx / Nav.jsx / Client.jsx
+
+De igual forma se instala @mui/material, @testing-library/jest-dom, react-icons, react-router-dom.
+
+### Consideraciones:
+La app tiene todo el funcionamiento operativo (Botones, formulario, enlaces, contacto y descarga de CV), no obstante por temas de actualización el archivo PDF de la descarga del CV es un archivo PDF de relleno.  
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
