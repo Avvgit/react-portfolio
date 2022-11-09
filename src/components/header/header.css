@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+
+.header_container span {
+  font-family: 'Nabla', cursive;
+  font-size: 3rem;
+  cursor: crosshair ;
+  letter-spacing: 12px;
+}
+
+.header_container span:hover {
+  text-decoration: underline double;
+  text-decoration-color: initial;
+}
+
+.text-light {
+  font-size: 1.5rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* ANIMATION LOADER */
+.loader {
+  position: relative;
+  width: 0 auto;
+  height: 15px;
+  background: #fff;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.loader::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #fb0094,#0000ff, #00ff00, #ffff00, #fb0094, #0000ff, #00ff00, #ffff00, #fb0094);
+  animation: animated 15s linear infinite;
+  background-size: 500%;
+}
+
+.loader::after { 
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #fb0094,#0000ff, #00ff00, #ffff00, #fb0094, #0000ff, #00ff00, #ffff00, #fb0094);
+  animation: animated 15s linear infinite;
+  background-size: 500%;
+  filter: blur(20px);
+}
+
+ @keyframes animated 
+{
+  0%
+  {
+    background-position: 0 0;
+  }
+  0%
+  {
+    background-position: 500% 0;
+  }
+}
+/* END ANIMATION */
+
+
+
+/* ==== CTA ==== */
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/* ====HEADER SOCIALS ==== */
+.header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.header_socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* ==== ME ==== */
+.me {
+  background: linear-gradient(var(--color-primary),transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ====SCROLL DOWN ==== */
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
+@media screen and (max-width: 1024px) {
+ header {
+  height: 68vh;
+ }
+}
+
+/* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
+}
