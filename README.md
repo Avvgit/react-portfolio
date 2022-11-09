@@ -1,3 +1,13 @@
+# Capturas Portfolio Alejandro Vera Valdés
+
+![Image text](https://github.com/Avvgit/react-portfolio/blob/main/Captura%20de%20Pantalla%202022-11-09%20a%20la(s)%2003.17.50.png)
+![Image text](https://github.com/Avvgit/react-portfolio/blob/main/Captura%20de%20Pantalla%202022-11-09%20a%20la(s)%2003.18.27.png)
+
+## En el portfolio se implementa uso de Hooks en componentes como Contact.jsx / Nav.jsx / Client.jsx
+
+De igual forma se instala @mui/material, @testing-library/jest-dom, react-icons, react-router-dom.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
