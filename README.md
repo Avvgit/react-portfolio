@@ -1,11 +1,15 @@
-# Capturas Portfolio Alejandro Vera Valdés
+# 👨‍💻 Personal Portfolio (2.0)
 
-![Image text](https://github.com/Avvgit/react-portfolio/blob/main/Captura%20de%20Pantalla%202022-11-09%20a%20la(s)%2003.17.50.png)
-![Image text](https://github.com/Avvgit/react-portfolio/blob/main/Captura%20de%20Pantalla%202022-11-09%20a%20la(s)%2003.18.27.png)
+### _Personal Portfolio construido en ReactJs con despliegue en Vercel.
 
-## En el portfolio se implementa uso de Hooks en componentes como Contact.jsx / Nav.jsx / Client.jsx
+### Live App :link: [https://developerjunaid.com/](https://react-portfolio-ten-rho.vercel.app/app)
 
-De igual forma se instala @mui/material, @testing-library/jest-dom, react-icons, react-router-dom.
+## Configuraciones de rutas. 
+## Implementacion del useContext. 
+## Jest en HomePage.test. 
+## Despliegue de la app en Vercel. 
+
+## Adicionales @mui/material, @testing-library/jest-dom, react-icons, react-router-dom.
 
 ##
 Se hace petición fetch en url: https://jsonplaceholder.typicode.com/users/ (../helpers/getClient").
