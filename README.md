@@ -2,7 +2,7 @@
 
 ### _Personal Portfolio construido en ReactJs con despliegue en Vercel.
 
-### Live App :link: [https://developerjunaid.com/](https://react-portfolio-ten-rho.vercel.app/app)
+### Live App :link: https://react-portfolio-ten-rho.vercel.app/app
 
 ## Configuraciones de rutas. 
 ## Implementacion del useContext. 
