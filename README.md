@@ -4,10 +4,10 @@
 
 ### Live App :link: https://react-portfolio-ten-rho.vercel.app/app
 
-## Configuraciones de rutas. 
-## Implementacion del useContext. 
-## Jest en HomePage.test. 
-## Despliegue de la app en Vercel. 
+## ✅Configuraciones de rutas. 
+## ✅Implementacion del useContext. 
+## ✅Jest en HomePage.test. 
+## ✅Despliegue de la app en Vercel. 
 
 ## Adicionales @mui/material, @testing-library/jest-dom, react-icons, react-router-dom.
 
