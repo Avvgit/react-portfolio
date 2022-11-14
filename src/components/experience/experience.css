@@ -1,7 +1,7 @@
 .experience__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
 .experience__container > div {
@@ -25,20 +25,30 @@
 }
 
 .experience__content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
 .experience__details {
-  display: flex;
-  gap: 1rem;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
 .experience__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
 }
+
+h4 {
+  color: rgb(247, 249, 247);
+  text-shadow: 0 0 10px #4db5ff,
+    0 0 80px #fff800,
+    0 0 160px #fff800;
+}
+
+
 
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 @media screen and (max-width: 1024px) {

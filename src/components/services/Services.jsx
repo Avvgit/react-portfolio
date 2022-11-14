@@ -66,10 +66,6 @@ const Services = () => {
             </li>
             <li>
               <IoCheckmarkDoneSharp className='service__list-icon'/>
-              <p>Mobile App: React Native</p>
-            </li>
-            <li>
-              <IoCheckmarkDoneSharp className='service__list-icon'/>
               <p>Agile: Product Owner & Scrum Master</p>
             </li>
           </ul>
