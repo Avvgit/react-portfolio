@@ -13,7 +13,7 @@ describe('Pruebas en <HomePage />', () => {
      </UserContext.Provider>   
       
 
-    );
+    )
     screen.debug()
 
   })

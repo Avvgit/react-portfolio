@@ -9,13 +9,8 @@ import { LoginPage } from "./LoginPage";
 import { Exit } from "./Exit";
 
 import "./mainApp.css"
-// import { useContext } from "react";
-// import { UserContext } from "./context/UserContext";
-
 
 export const MainApp = () => {
-
-  // const { user } = useContext( UserContext );
 
   return (
     <UserProvider>
@@ -29,14 +24,9 @@ export const MainApp = () => {
           <Route path="contact" element={ <Contact/> } />
           <Route path="login" element={ <LoginPage /> } />
           <Route path="home" element={ <HomePage /> } />
-          {/* <Route path="home" 
-                 render={() => {
-                 return user ? null : <HomePage/>
-                 }} />   */}
-
           <Route path="exit" element={ <Exit/> } />
 
-          <Route path="/" element={ <Navigate to="/App" /> } />
+          <Route path="/*" element={ <Navigate to="/contact" /> } />
       </Routes>
     </UserProvider>
   )
